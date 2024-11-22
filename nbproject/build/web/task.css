@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 9, 2023, 9:13:17 PM
+    Author     : HP
+*/
+body {
+    background-color: #acc7e7;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  h2, h3 {
+    text-align: center;
+  }
+  
+  button {
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #7fc5ea;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #7fc5ea;
+  }
+  
+  #taskFormContainer {
+    margin-top: 20px;
+  }
+  #taskListContainer{
+      padding-left: 10px;
+    padding-right: 10px;
+  }
+  label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  textarea,
+  select,
+  input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  td.actions {
+    text-align: center;
+  }
+  
+  td.actions button {
+    padding: 5px 10px;
+    background-color: #fbc02d;
+  }
+  
+  td.actions button.delete {
+    background-color: #b7a5a5;
+  }
+  
+  td.actions button:hover {
+    background-color: #ffa726;
+  }
